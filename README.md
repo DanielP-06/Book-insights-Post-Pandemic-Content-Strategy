@@ -39,3 +39,6 @@ Key analytical steps included:
 *   **Strengthen Publisher Alliances:** Deepen partnerships with leading publishers like Penguin Books to secure a consistent supply of high-quality, long-form content.
 *   **Gamify Reviews:** Implement a badge system or similar motivational incentives for active users who exceed 20 reviews to encourage continued text review contributions, leveraging their influence to build trust and guide new readers.
 *   **Permanent Quality Filter:** Introduce a permanent quality filter in the application's search functionality, such as a minimum page count or rating threshold, to ensure users consistently discover high-value content and prevent low-quality items from distorting rankings.
+
+## How to Run 
+To run this project, you'll first need to ensure you have Python, Pandas, SQLAlchemy, Matplotlib, and Seaborn installed. The key setup step is establishing the database connection. Update the db_config dictionary in the first code cell with your PostgreSQL database credentials which in this case are already included. Once configured, you can execute the notebook cells sequentially to reproduce the analysis and visualizations.
